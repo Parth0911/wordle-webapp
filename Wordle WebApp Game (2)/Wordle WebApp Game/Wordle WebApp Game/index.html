@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Wordle-like Game with Difficulty Levels</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Top Panel for Score and Remaining Guesses -->
+    <div class="top-panel">
+        <!-- Score Display -->
+        <div class="score-panel">
+            <h3>Score: <span id="score">0</span> </h3>
+        </div>
+        <!-- Remaining Guesses -->
+        <div class="remaining-guesses-panel">
+            <h3>Remaining Guesses: <span id="remaining-guesses">0</span></h3>
+        </div>
+        <button id="hint-btn" onclick="getHint()">Get Hint</button>
+        <div class="hint-panel">
+            <h3>Remaining Hints: <span id="remaining-hints">0</span></h3>
+        </div>
+        
+
+    </div>
+
+    <!-- Main Game Container -->
+    <div class="game-container">
+        <h1>Wordle WebApp Game</h1>
+
+        <!-- Word Grid -->
+        <div class="grid" id="word-grid">
+            <!-- Dynamically generated boxes based on difficulty -->
+        </div>
+
+        <!-- Onscreen Keyboard -->
+        <div class="keyboard" id="keyboard">
+            <!-- QWERTY layout -->
+        </div>
+
+        <!-- Submit Button -->
+        <button id="submit-btn" onclick="submitGuess()">SUBMIT</button>
+    </div>
+
+    <!-- Difficulty Panel at Top-Right -->
+    <div class="difficulty-panel">
+        <h3>Difficulty Level</h3>
+        <select id="difficulty" onchange="setDifficulty()">
+            <option value="easy">Easy </option>
+            <option value="medium" selected>Medium </option>
+            <option value="hard">Hard </option>
+        </select>
+    </div>
+    
+
+    <script src="script.js"></script>
+</body>
+</html>

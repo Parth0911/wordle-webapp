@@ -1,0 +1,27 @@
+{
+    "easy": [
+      "WIND", "BOOK", "TREE", "MOON", "STAR", "LAKE", "BIRD", "CAMP", "FIRE", "ROAD", 
+      "FORK", "BELL", "SHIP", "SNOW", "FISH", "WOLF", "RING", "CORN", "LION", "LAMP"
+    ],
+    "medium": [
+      "CHIPS", "GHOST", "BRAVE", "MOUSE", "CLOUD", "HOUSE", "TRAIN", "PLANE", "STORM", 
+      "SWORD", "CHAIR", "SHORE", "APPLE", "WATER", "LIGHT", "STONE", "CROWD", "RIVER", 
+      "SHARK", "WORLD"
+    ],
+    "hard": [
+      "CANDLE", "ORANGE", "PLANTS", "PLANET", "BOTTLE", "MARKET", "FLOORS", "STREAM", 
+      "FOREST", "BASKET", "FURNIT", "GUITAR", "CARPET", "STUDIO", "CASTLE", "CIRCLE", 
+      "PENCIL", "FAMILY", "SILVER", "ROCKET"
+    ],
+    "all_words": [
+      "WIND", "BOOK", "TREE", "MOON", "STAR", "LAKE", "BIRD", "CAMP", "FIRE", "ROAD", 
+      "FORK", "BELL", "SHIP", "SNOW", "FISH", "WOLF", "RING", "CORN", "LION", "LAMP", 
+      "CHIPS", "GHOST", "BRAVE", "MOUSE", "CLOUD", "HOUSE", "TRAIN", "PLANE", "STORM", 
+      "SWORD", "CHAIR", "SHORE", "APPLE", "WATER", "LIGHT", "STONE", "CROWD", "RIVER", 
+      "SHARK", "WORLD", "CANDLE", "ORANGE", "PLANTS", "PLANET", "BOTTLE", "MARKET", 
+      "FLOORS", "STREAM", "FOREST", "BASKET", "FURNIT", "GUITAR", "CARPET", "STUDIO", 
+      "CASTLE", "CIRCLE", "PENCIL", "FAMILY", "SILVER", "ROCKET", "FORK", "MANGO", 
+      "LEVEL", "CRISP", "HELLO", "STAGE", "POINT", "METAL", "GRACE", "START", "PARTY"
+    ]
+  }
+  
